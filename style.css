@@ -540,28 +540,14 @@ section{
     }
     
     .footer {
-        background-color: #131313;
-        width: 100%;
-        color: #eaeaea;
-        padding: 0.5em;
         display:flex;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
     }
     
     .footer p{
-        margin-left: 25px;
-        font-size: 0.9em;
-        font-weight: 400;
-    }
-    .footer p span{
-        font-family: 'Italianno', cursive;
-        font-size: 1.5em;
-        font-weight: 500;
-        color: #8e793e;
-    }
-    
-    .footer .social-icons a{
-        font-size: 1.1em;
+        margin-right: 10px;
+        
     }
 }
